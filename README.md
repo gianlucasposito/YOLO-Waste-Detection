@@ -18,6 +18,6 @@
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/Waste_DetectionNew.git
-cd Waste_DetectionNew
+git clone https://github.com/gianlucasposito/YOLO-Waste-Detection.git    
+cd Waste_Detection
 pip install -r requirements.txt
