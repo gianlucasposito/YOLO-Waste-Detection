@@ -51,6 +51,7 @@ I took a photo with my cell phone to test whether the model can correctly identi
 ![Alt text](Image/image_phone_pred.jpg)
 
 ### Installation
+----
 
 ```bash
 git clone https://github.com/gianlucasposito/YOLO-Waste-Detection.git    
