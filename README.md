@@ -15,6 +15,28 @@
 └── README.md                # Project overview
 ```
 
+## 📊 Dataset
+
+This project leverages the publicly available “Waste Detection” dataset from [utpalpaul108/waste-detection-using-yoloV5](https://github.com/utpalpaul108/waste-detection-using-yoloV5). It contains annotated images of five types of waste.
+
+| 📂 Attribute            | 📈 Details                                                                                           |
+|-------------------------|------------------------------------------------------------------------------------------------------|
+| **Number of images**    | 4127                                                                                                |
+| **Splits**              | • **Train:** 3502 images <br>• **Validation:** 580 images <br>• **Test:** 45 images                  |
+| **Classes**             | 4                                                                                                    |
+| **Class names**         | `Glass`, `Metal`, `Paper`, `Plastic`, `Waste`                                                         |
+| **Source repo**         | [utpalpaul108/waste-detection-using-yoloV5](https://github.com/utpalpaul108/waste-detection-using-yoloV5) |
+
+
+
+
+
+
+
+
+
+
+
 ### A
 
 It includes:
