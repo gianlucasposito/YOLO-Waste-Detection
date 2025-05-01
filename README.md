@@ -8,7 +8,7 @@ Waste accumulation in urban and natural environments poses serious threats to hu
 ```text
 ├── Image/                   # Folder containing a test image
 ├── runs/
-│   └── detect/              # YOLOv8 inference outputs (predictions, annotated images)
+│   └── detect/              # YOLOv8 inference outputs
 ├── best_model.pt            # Best YOLO model weights
 ├── Waste_Detection.ipynb    # Interactive Jupyter notebook demonstrating inference & training
 ├── requirements.txt         # Python dependencies
