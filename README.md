@@ -47,7 +47,7 @@ This project leverages the publicly available “Waste Detection” dataset from
 
 ## Test 
 
-
+![Alt text](Image/image_phone_pred.jpg)
 
 
 
