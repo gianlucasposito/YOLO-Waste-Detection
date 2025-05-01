@@ -45,13 +45,12 @@ This project leverages the publicly available “Waste Detection” dataset from
 - Test generalization on user-provided photos
 
 
-## Test 
+## 🧪 Test 
 I took a photo with my cell phone to test whether the model can correctly identify the type of waste in an image that is completely different from the ones present in the dataset used to train the model.
 
 ![Alt text](Image/image_phone_pred.jpg)
 
-### Installation
-----
+## 🔧 Installation
 
 ```bash
 git clone https://github.com/gianlucasposito/YOLO-Waste-Detection.git    
