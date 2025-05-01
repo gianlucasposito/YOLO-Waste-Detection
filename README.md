@@ -32,17 +32,17 @@ This project leverages the publicly available “Waste Detection” dataset from
 ## ⚙️ Project Content
 
 ### Data Handling
-- Download & unzip dataset from Google Drive  
+- Download & unzip dataset
 - Explore data distribution and visualize sample images
 
 ### Model Training & Evaluation
-- Train YOLOv8-nano with configurable epoch schedules  
+- Train YOLOv8-nano over multiple epoch settings
 - Track and select the best model based on mAP@0.5  
-- Evaluate performance on validation and test splits (mAP@0.5, mAP@0.75, mAP@0.5:0.95)
+- Evaluate performance on validation and test sets
 
 ### Inference & Visualization
 - Display predictions on test-set images  
-- Test generalization on user-provided photos
+- Test generalization on an image taken from my cell phone
 
 
 ## 🧪 Test 
