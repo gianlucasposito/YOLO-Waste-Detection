@@ -31,8 +31,6 @@ This project leverages the publicly available “Waste Detection” dataset from
 
 ## ⚙️ Project Content
 
-This project includes:
-
 ### Data Handling
 - Download & unzip dataset from Google Drive  
 - Explore data distribution and visualize sample images
@@ -45,34 +43,6 @@ This project includes:
 ### Inference & Visualization
 - Display predictions on test-set images  
 - Test generalization on user-provided photos
-
----
-
-### 🔍 3. Inference & Visualization
-- **Batch inference**  
-  Run the best model on your test-set folder to generate predictions.  
-- **Result overlays**  
-  Annotate images with predicted boxes, class labels, and confidence scores.  
-- **Custom image testing**  
-  Drop in your own photos (e.g. smartphone snapshots) to assess real-world generalization.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
