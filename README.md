@@ -6,7 +6,7 @@ Waste accumulation in urban and natural environments poses serious threats to hu
 ## 📂 Repository Structure
 
 ```text
-├── Image/                   # Folder containing sample images
+├── Image/                   # Folder containing a test image
 ├── runs/
 │   └── detect/              # YOLOv8 inference outputs (predictions, annotated images)
 ├── best_model.pt            # Best YOLO model weights
@@ -46,10 +46,9 @@ This project leverages the publicly available “Waste Detection” dataset from
 
 
 ## Test 
+I took a photo with my cell phone to test whether the model can correctly identify the type of waste in an image that is completely different from the ones present in the dataset used to train the model.
 
 ![Alt text](Image/image_phone_pred.jpg)
-
-
 
 ### Installation
 
