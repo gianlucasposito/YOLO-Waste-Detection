@@ -1,6 +1,7 @@
 # YOLO-Waste-Detection
 
 **YOLO-Waste-Detection** is an object-detection project built on the Ultralytics YOLOv8 framework to classify and localize five types of waste,Glass, Metal, Paper, Plastic, and Waste in images. 
+Waste accumulation in urban and natural environments poses serious threats to human health, biodiversity, and climate. Computer vision offers scalable, accurate, and real-time monitoring of waste streams, boosting recycling yields and support proactive environmental management. 
 
 ## 📂 Repository Structure
 
@@ -23,7 +24,7 @@ This project leverages the publicly available “Waste Detection” dataset from
 |-------------------------|------------------------------------------------------------------------------------------------------|
 | **Number of images**    | 4127                                                                                                |
 | **Splits**              | • **Train:** 3502 images <br>• **Validation:** 580 images <br>• **Test:** 45 images                  |
-| **Classes**             | 4                                                                                                    |
+| **Classes**             | 5                                                                                                    |
 | **Class names**         | `Glass`, `Metal`, `Paper`, `Plastic`, `Waste`                                                         |
 | **Source repo**         | [utpalpaul108/waste-detection-using-yoloV5](https://github.com/utpalpaul108/waste-detection-using-yoloV5) |
 
