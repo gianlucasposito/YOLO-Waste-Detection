@@ -29,34 +29,22 @@ This project leverages the publicly available “Waste Detection” dataset from
 | **Source repo**         | [utpalpaul108/waste-detection-using-yoloV5](https://github.com/utpalpaul108/waste-detection-using-yoloV5) |
 
 
-### 🚀 Project Content
+## ⚙️ Project Content
 
-Below is an overview of the main components in this repository:
+This project includes:
 
----
+### Data Handling
+- Download & unzip dataset from Google Drive  
+- Explore data distribution and visualize sample images
 
-### 🔄 1. Data Handling
-- **Download & unzip**  
-  Fetch the annotated dataset archive from Google Drive and extract into your project folder.  
-- **Inspect & explore**  
-  • Compute class-wise counts, image resolutions, and annotation statistics.  
-  • Plot distribution charts (e.g. bar plots of class frequencies).  
-- **Visualize samples**  
-  Display a grid of representative images overlaid with their YOLO-format bounding boxes.
+### Model Training & Evaluation
+- Train YOLOv8-nano with configurable epoch schedules  
+- Track and select the best model based on mAP@0.5  
+- Evaluate performance on validation and test splits (mAP@0.5, mAP@0.75, mAP@0.5:0.95)
 
----
-
-### 🏋️‍♂️ 2. Model Training & Evaluation
-- **Train YOLOv8-nano**  
-  • Configurable hyperparameters: epochs, batch size, learning rate, image size.  
-  • Launch training with a single CLI command or via the provided Python script.  
-- **Checkpoint selection**  
-  Automatically track mAP@0.5 on validation split and save the “best” weights.  
-- **Comprehensive evaluation**  
-  After training, evaluate on both validation and test splits, reporting:  
-  - **mAP@0.5**  
-  - **mAP@0.75**  
-  - **COCO mAP@0.5:0.95**  
+### Inference & Visualization
+- Display predictions on test-set images  
+- Test generalization on user-provided photos
 
 ---
 
@@ -68,9 +56,6 @@ Below is an overview of the main components in this repository:
 - **Custom image testing**  
   Drop in your own photos (e.g. smartphone snapshots) to assess real-world generalization.
 
----
-
-> 💡 _Tip:_ All scripts accept `--help` flags for detailed usage instructions and alternative workflows.  
 
 
 
@@ -89,22 +74,7 @@ Below is an overview of the main components in this repository:
 
 
 
-### A
 
-It includes:
-
-- **Data Handling**:  
-  - Download & unzip dataset from Google Drive  
-  - Explore data distribution and visualize sample images  
-
-- **Model Training & Evaluation**:  
-  - Train YOLOv8-nano with configurable epoch schedules  
-  - Track and select the best model based on mAP@0.5  
-  - Evaluate performance on validation and test splits (mAP@0.5, mAP@0.75, mAP@0.5:0.95)
-
-- **Inference & Visualization**:  
-  - Display predictions on test-set images  
-  - Test generalization on user-provided photos  
 
 ### Installation
 
