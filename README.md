@@ -29,6 +29,57 @@ This project leverages the publicly available “Waste Detection” dataset from
 | **Source repo**         | [utpalpaul108/waste-detection-using-yoloV5](https://github.com/utpalpaul108/waste-detection-using-yoloV5) |
 
 
+### 🚀 Project Content
+
+Below is an overview of the main components in this repository:
+
+---
+
+### 🔄 1. Data Handling
+- **Download & unzip**  
+  Fetch the annotated dataset archive from Google Drive and extract into your project folder.  
+- **Inspect & explore**  
+  • Compute class-wise counts, image resolutions, and annotation statistics.  
+  • Plot distribution charts (e.g. bar plots of class frequencies).  
+- **Visualize samples**  
+  Display a grid of representative images overlaid with their YOLO-format bounding boxes.
+
+---
+
+### 🏋️‍♂️ 2. Model Training & Evaluation
+- **Train YOLOv8-nano**  
+  • Configurable hyperparameters: epochs, batch size, learning rate, image size.  
+  • Launch training with a single CLI command or via the provided Python script.  
+- **Checkpoint selection**  
+  Automatically track mAP@0.5 on validation split and save the “best” weights.  
+- **Comprehensive evaluation**  
+  After training, evaluate on both validation and test splits, reporting:  
+  - **mAP@0.5**  
+  - **mAP@0.75**  
+  - **COCO mAP@0.5:0.95**  
+
+---
+
+### 🔍 3. Inference & Visualization
+- **Batch inference**  
+  Run the best model on your test-set folder to generate predictions.  
+- **Result overlays**  
+  Annotate images with predicted boxes, class labels, and confidence scores.  
+- **Custom image testing**  
+  Drop in your own photos (e.g. smartphone snapshots) to assess real-world generalization.
+
+---
+
+> 💡 _Tip:_ All scripts accept `--help` flags for detailed usage instructions and alternative workflows.  
+
+
+
+
+
+
+
+
+
 
 
 
